@@ -1,0 +1,12 @@
+.container{
+    margin-top: 2%;
+    height: 100%; 
+}
+.head{
+    font-size:250%;
+    margin-bottom: 1%;
+}
+.card:hover{
+    box-shadow: 2px 2px 2px 2px rgb(107, 105, 105);
+
+}

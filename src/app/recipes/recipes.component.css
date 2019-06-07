@@ -1,0 +1,23 @@
+.head{
+    width:100%;
+    background-color:#78c9f7b4;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.p1{
+    margin-bottom: 2%;
+}
+.timeline-image{
+    margin-left: 20%;
+    border: 10px solid #4ab8eb;
+    border-radius: 400px;
+    background-color: #3b5998;
+    background-image: url(/assets/img0.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 6px 0px 5px #8f9091;
+    width: 310px;
+    height: 300px;
+}

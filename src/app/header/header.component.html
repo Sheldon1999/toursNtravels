@@ -1,0 +1,110 @@
+<nav class="navbar fixed-top navbar-expand-md navbar-custom">
+  <div class="navbar-brand text-danger font-weight-bolder">toolsNtravels</div>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-stretch" id="navbarSupportedContent" [ngClass]="{ 'show' : navbarOpen }">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown" ngbDropdown>
+          <a class="nav-link dropdown-toggle" id="id01" href="#" ngbDropdownToggle>Our packages</a>
+          <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu style="box-shadow: 0px 2px 5px #656a70; background-color: #ffffffc7">
+            <a class="dropdown-item" href="#" >Trip@1</a>
+            <a class="dropdown-item" href="#">Trip@2</a>
+            <a class="dropdown-item" href="#">Trip@3</a>
+            <a class="dropdown-item" href="#">Trip@4</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#" (click)="openVerticallyCentered(content1)">Sign up</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+<ng-template #content2 let-modal>
+  <div class="modal-header">
+      <h4 class="modal-title">log in</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+  </div>
+  <div class="modal-body mx-3">
+      <div class="md-form form-sm mb-5">
+          <form>
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </form>
+          <button class = "butn" >login</button>
+          <div class="or-seperator"><i>OR login with </i></div>
+          <div class="text-center social-btn">
+            <button class="loginBtn loginBtn--facebook">
+              Facebook
+            </button>
+            
+            <button class="loginBtn loginBtn--google">
+              Google
+            </button>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="already">forgot password? ,</p>
+      <a href="#"> click here</a>
+    </div>
+</ng-template>
+
+<ng-template #content1 let-modal>
+  <div class="log-in">
+      <div class="modal-header">
+          <h4 class="modal-title">Sign Up</h4>
+          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-body mx-3">
+          <div class="md-form form-sm mb-5">
+              <label data-error="wrong" data-success="right" for="modalLRInput10">Your Name</label>
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </form>
+              <button class="butn">Sign up</button>
+              <div class="or-seperator"><i>OR</i></div>
+              <div class="text-center social-btn">
+                <button class="loginBtn loginBtn--facebook">
+                  Sign up with Facebook
+                </button>
+                
+                <button class="loginBtn loginBtn--google">
+                    Sign up with Google
+                </button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p class="already">already a member?</p>
+          <button type="button" class="btn btn-outline-info" (click)="openVerticallyCentered(content2)">login</button>
+        </div>
+  </div>
+  </ng-template>
