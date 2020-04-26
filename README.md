@@ -1,6 +1,6 @@
 # toursNtravels
 
-This is a sample front page of a travel site Built Angular with login and signup modals.
+This is a sample front page of a travel site built with Angular(version-7) with login and signup modals.
 
 ## Live Demo
 
