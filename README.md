@@ -1,29 +1,31 @@
 # toursNtravels
 
-This is a sample front page of a travel site Built Angular
+This is a sample front page of a travel site Built Angular with login and signup modals.
 
 ## Live Demo
 
-run https://stackblitz.com/github/Sheldon1999/toursNtravels  but this demo is not rendering images in project.
+run https://stackblitz.com/github/Sheldon1999/toursNtravels 
+(but this demo is not rendering images in project.but you can see images of my project in image gallery below)
 
-## Images:
+## Project setup:
 
-![alt text](https://drive.google.com/file/d/1Q1f3PSnCpNjC6XZ2-B-VUd1uhFT7tz1b/view?usp=sharing?raw=true)
-![alt text](https://drive.google.com/file/d/1Uwry1Od8yGXHQTuAastGDSTCrxeOcyaZ/view?usp=sharing?raw=true)
+To setup project in your local machine,follow these steps:
+
+1. install angular from https://cli.angular.io/ and follow all commands.
+2. download or clone repo in a folder.
+3. navigate to the folder.
+4. run ```npm serve```
 
 
-## Build
+## Image Gallery:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Images of slider:
 
-## Running unit tests
+![slider_image_1](https://github.com/Sheldon1999/toursNtravels/blob/master/src/assets/Screenshot%20from%202020-04-26%2013-31-45.png)
+![slider_image_2](https://github.com/Sheldon1999/toursNtravels/blob/master/src/assets/Screenshot%20from%202020-04-26%2013-31-47.png)
+![slider_image_3](https://github.com/Sheldon1999/toursNtravels/blob/master/src/assets/Screenshot%20from%202020-04-26%2013-31-49.png)
+![slider_image_4](https://github.com/Sheldon1999/toursNtravels/blob/master/src/assets/Screenshot%20from%202020-04-26%2013-31-51.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Image of cards:
+![card_image](https://github.com/Sheldon1999/toursNtravels/blob/master/src/assets/Screenshot%20from%202020-04-26%2013-32-35.png)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
