@@ -1,14 +1,16 @@
-# MyApp
+# toursNtravels
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+This is a sample front page of a travel site Built Angular
 
-## Development server
+## Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+run https://stackblitz.com/github/Sheldon1999/toursNtravels  but this demo is not rendering images in project.
 
-## Code scaffolding
+## Images:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![alt text](https://drive.google.com/file/d/1Q1f3PSnCpNjC6XZ2-B-VUd1uhFT7tz1b/view?usp=sharing?raw=true)
+![alt text](https://drive.google.com/file/d/1Uwry1Od8yGXHQTuAastGDSTCrxeOcyaZ/view?usp=sharing?raw=true)
+
 
 ## Build
 
