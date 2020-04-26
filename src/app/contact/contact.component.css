@@ -1,8 +1,0 @@
-.ank {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .ank > * {
-    width: 100%;
-  }

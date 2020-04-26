@@ -11,6 +11,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { SliderComponent } from './slider/slider.component';
 import { PackagesComponent } from './packages/packages.component';
 import { ContactComponent } from './contact/contact.component';
+import { PageFooterComponent } from './page-footer/page-footer.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     RecipeItemComponent,
     SliderComponent,
     PackagesComponent,
-    ContactComponent
+    ContactComponent,
+    PageFooterComponent
   ],
   imports: [
     NgbModule,
